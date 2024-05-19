@@ -1,0 +1,51 @@
+.navbar__barContent {
+    height: 76px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+.navbar_logo{
+    margin-top: 10px;
+    height: 50px;
+}
+
+.navbar__searchBar {
+    height: 30px;
+    width: 400px;
+    margin-top: 10px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.navbar__icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar__icon {
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar__img {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .container {
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: "200px";
+}
