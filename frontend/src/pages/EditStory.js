@@ -14,10 +14,10 @@ const[name,setName] = useState();
 const[caption,setCaption] = useState();
 const[imageURL,setImageURL] = useState();
 
-// const [notify, setnotify] = useState(false);
-// const Alert = React.forwardRef(function Alert(props, ref) {
-//     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
-//   });
+const [notify, setnotify] = useState(false);
+const Alert = React.forwardRef(function Alert(props, ref) {
+    return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+  });
 
 const handleSubmit= (event) =>{
     const story ={
