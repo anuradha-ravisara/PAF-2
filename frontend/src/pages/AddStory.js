@@ -16,6 +16,8 @@ const handleSubmit = async(event) =>{
         caption:caption,
         imgurl:imageURL
     })
+
+
     
     // console.log("story",story)
 
@@ -33,6 +35,7 @@ const handleSubmit = async(event) =>{
 return(
     <>
     <h1 >Update Status</h1>
+    {/* update status */}
     <div className="form-container">
         <form onSubmit={handleSubmit}>
             <label>
