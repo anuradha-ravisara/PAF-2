@@ -1,0 +1,5 @@
+# Created at 2024-05-18T21:52:32.514
+Boot Manifest-JAR contains absolute paths in classpath 'D:\PAF 2024\paf-assignment-2023-2023_15_team-main\backend\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
